@@ -1,5 +1,5 @@
 import Terminal from "./terminal";
-
+import Welcome from "./welcome";
 function Box() {
   return (
  <>
@@ -11,9 +11,11 @@ function Box() {
         <p className="blur-[0.8px] select-none text-center ">
           aadarsh/terminal-portfolio
         </p>
+        
       </div>
         
     </div>
+    <Welcome/>
     <Terminal/>
  </>
     

@@ -50,7 +50,7 @@ function Terminal() {
 
   return (
     <div>
-      <div className="inline-block w-full mt-10">
+      <div className="inline-block w-full ">
         <p>aadarsh/portfiloi/~</p>
         <form onSubmit={handleSubmit}>
           <div className="text-2xl font-extrabold">
