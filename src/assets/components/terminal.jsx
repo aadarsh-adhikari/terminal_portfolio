@@ -69,9 +69,10 @@ function Terminal() {
           </div>
         </form>
         {output && <div>{output}</div>}
-        {components.map((component, index) => (
-          <div key={index}>{component}</div>
-        ))}
+{components.slice(0).reverse().map((component, index) => (
+  <div key={index}>{component}</div>
+))}
+
       </div>
     </div>
   );

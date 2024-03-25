@@ -11,8 +11,11 @@ function Help(){
 return(
 
       <div className="inline-block " >
-        <p>aadarsh/portfiloi/helplist~</p>
-        <ul className=" text-xl font-bold  " >  <FontAwesomeIcon icon={faArrowRight} className='text-black' />
+        <p>aadarsh/portfiloi/~</p>
+        <div className='text-2xl font-bold'>
+      <FontAwesomeIcon icon={faArrowRight} className="text-black " /><p className='inline ml-2'>help</p>
+      </div>
+        <ul className=" text-xl font-bold  " >  
         {
           help.map((id)=>(
             <li className='flex gap-12 mb-2' key={id.topic}><p className='w-16'>{id.topic}</p><p >{id.des}</p></li>

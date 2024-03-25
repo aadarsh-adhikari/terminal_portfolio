@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDesktop, faServer } from '@fortawesome/free-solid-svg-icons';
+import { faDesktop, faServer,faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 const skills = [
   { icon: faDesktop, name: 'React (Frontend)' },
@@ -13,7 +13,12 @@ const skills = [
 
 function SkillCard() {
   return (
-    <div className=" p-4 rounded-lg shadow-md">
+    <div className=" rounded-lg ">
+     <p>aadarsh/portfiloi/</p>
+
+      <div className='text-2xl font-bold'>
+      <FontAwesomeIcon icon={faArrowRight} className="text-black " /><p className='inline ml-2'>skillcard</p>
+      </div>
       <h2 className="text-lg font-bold mb-2">Programing Skills</h2>
       <ul>
         {skills.map((skill, index) => (
